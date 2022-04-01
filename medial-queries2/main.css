@@ -1,0 +1,56 @@
+body {
+  background: papayawhip;
+}
+
+
+}
+
+.a {
+min-height: 20vh;
+flex-direction: column;
+background-color: crimson;
+}
+.b {
+min-height: 50vh;
+flex-direction: column;
+background-color: black;
+}
+
+.c {
+  min-height: 20vh;
+  ;
+  background-color: teal;
+  display: flex;
+}
+
+.d {
+  min-height: 20vh;
+  display: flex;
+  background-color: brown;
+}
+.e {
+  min-height: 20vh;
+  min-width: 33vh;
+  background-color: gray;
+  display: flex;
+}
+
+.f {
+  min-height: 20vh;
+  flex-direction: column;
+  background-color: tan;
+}
+
+.c, .d, .e {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-grow: 3;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  width: 60%;
+  
+}
+.mid {
+  display:flex;
+  flex-direction: row-reverse;
+}

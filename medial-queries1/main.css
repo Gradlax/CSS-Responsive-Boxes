@@ -1,0 +1,34 @@
+* {
+  border: 1px solid gold;
+  fill: blue;
+}
+
+
+body {
+  background: blanchedalmond;
+}
+
+
+.a {
+  display: flex;
+  color: crimson;
+  min-height: 33vh;
+  max-height: 75%;
+  background-color: seagreen;
+  flex-direction: column;
+}
+
+
+.b {
+  color: black;
+  min-height: 66vh;
+  flex-direction: column;
+  background-color: rebeccapurple;
+}
+
+.c {
+  color: seagreen;
+  flex-direction: column;
+  min-height: 33vh;
+  background-color: brown;
+}
